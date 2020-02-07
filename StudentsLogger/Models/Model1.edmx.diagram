@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d3fff169c1fd42ea87dffc90c63a5173" Name="Diagram1">
+        <EntityTypeShape EntityType="StudentsLoggerAppModel.Activity" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentsLoggerAppModel.Course" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentsLoggerAppModel.EnrolledID" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentsLoggerAppModel.StudentData" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StudentsLoggerAppModel.sysdiagram" Width="1.5" PointX="5.75" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="StudentsLoggerAppModel.FK_Activities_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentsLoggerAppModel.FK_Activities_StudentData" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentsLoggerAppModel.FK_EnrolledID_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="StudentsLoggerAppModel.FK_EnrolledID_StudentData" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
